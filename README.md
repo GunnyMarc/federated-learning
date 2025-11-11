@@ -2,7 +2,7 @@
 
 A comprehensive implementation of Federated Learning algorithms in PyTorch, demonstrating how to train machine learning models across decentralized devices while preserving data privacy.
 
-## 📚 Overview
+## Overview
 
 This repository implements federated learning from scratch, showcasing how to:
 - Train models without centralizing sensitive data
@@ -10,7 +10,7 @@ This repository implements federated learning from scratch, showcasing how to:
 - Implement FedSGD and FedAvg algorithms
 - Compare federated learning with traditional centralized training
 
-## 🎯 Key Features
+## Key Features
 
 - **Complete Implementation**: Full federated learning pipeline in PyTorch
 - **Multiple Algorithms**: Both FedSGD and FedAvg implementations
@@ -19,7 +19,7 @@ This repository implements federated learning from scratch, showcasing how to:
 - **Performance Comparison**: Benchmarks against traditional training
 - **Educational**: Extensively commented code for learning
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 Central Server (Global Model)
@@ -37,7 +37,7 @@ Server Aggregates Updates
     Repeat
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -84,7 +84,7 @@ accuracy = fl_system.evaluate()
 print(f"Final Accuracy: {accuracy:.4f}")
 ```
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 federated-learning-tutorial/
@@ -123,7 +123,7 @@ federated-learning-tutorial/
     └── federated_learning_tutorial.ipynb
 ```
 
-## 🧪 Algorithms Implemented
+## Algorithms Implemented
 
 ### 1. Federated Stochastic Gradient Descent (FedSGD)
 
@@ -150,7 +150,7 @@ for epoch in range(E):
 global_weights = weighted_average(all_client_weights)
 ```
 
-## 📊 Key Concepts
+## Key Concepts
 
 ### When to Use Federated Learning
 
@@ -167,7 +167,7 @@ Federated learning is ideal when:
 - **Non-IID Data**: Techniques to handle heterogeneous data distributions
 - **Client Selection**: Strategies for selecting active clients per round
 
-## 📈 Performance Comparisons
+## Performance Comparisons
 
 ### IID vs Non-IID Data
 
@@ -180,7 +180,7 @@ Federated learning is ideal when:
 
 *Note: These are illustrative results from simplified models*
 
-## 🔬 Advanced Features
+## Advanced Features
 
 ### Client Selection Strategies
 
@@ -208,7 +208,7 @@ def train_with_common_data(client_models, common_dataset):
     return client_models
 ```
 
-## 📖 Examples
+## Examples
 
 ### Example 1: Basic Federated Learning
 
@@ -241,7 +241,7 @@ results = fl.train(num_rounds=10, fine_tune=True)
 
 See the `examples/` directory for more detailed use cases.
 
-## 🧪 Running Tests
+## Running Tests
 
 ```bash
 # Run all tests
@@ -254,7 +254,7 @@ pytest tests/test_algorithms.py
 pytest --cov=src tests/
 ```
 
-## 📚 Documentation
+## Documentation
 
 Detailed documentation for each component:
 
@@ -263,34 +263,34 @@ Detailed documentation for each component:
 - [Client Selection](docs/client_selection.md): Selection strategies
 - [API Reference](docs/api_reference.md): Complete API documentation
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Based on the foundational papers:
   - McMahan et al. "Communication-Efficient Learning of Deep Networks from Decentralized Data"
   - Konečný et al. "Federated Learning: Strategies for Improving Communication Efficiency"
 - CIFAR-10 dataset from the Canadian Institute for Advanced Research
 
-## 📧 Contact
+## Contact
 
 For questions or feedback:
 - Open an issue on GitHub
 - Email: your.email@example.com
 
-## 🔗 Related Resources
+## Related Resources
 
 - [Federated Learning Paper](https://arxiv.org/abs/1602.05629)
 - [TensorFlow Federated](https://www.tensorflow.org/federated)
 - [PySyft - Federated Learning Library](https://github.com/OpenMined/PySyft)
 
-## 📝 Citation
+## Citation
 
 If you use this code in your research, please cite:
 
