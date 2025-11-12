@@ -353,7 +353,7 @@ All example scripts depend on the core package files but are independent of each
 - **API Documentation**: Check docstrings in each module
 - **Examples**: Look at `examples/` directory
 - **Issues**: Open an issue on GitHub
-- **Questions**: Email or discussion board
+- **Questions**: marc@techgeezer.io or https://techgeezer.io 
 
 ## Contributing
 

@@ -83,10 +83,10 @@ Federated Learning is a machine learning paradigm where:
 
 Federated learning is ideal when:
 
-- ✅ **Proxy data is unsuitable**: Device data differs from public datasets
-- ✅ **Data is privacy-sensitive**: Photos, messages, health records
-- ✅ **Data is naturally labeled**: User interactions provide labels
-- ✅ **Bandwidth is limited**: Sending model updates < sending raw data
+- **Proxy data is unsuitable**: Device data differs from public datasets
+- **Data is privacy-sensitive**: Photos, messages, health records
+- **Data is naturally labeled**: User interactions provide labels
+- **Bandwidth is limited**: Sending model updates < sending raw data
 
 ### Key Algorithms
 

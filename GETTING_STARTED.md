@@ -425,11 +425,11 @@ for detailed documentation
     at
     examples in the
     `examples / ` directory
-- 🐛 Report
+- Report
 issues
 on
 GitHub
-- 📧 Contact: your.email @ example.com
+- 📧 Contact: marc@techgeezer.io
 
 ## Resources
 
@@ -444,6 +444,4 @@ Federated **: https: // www.tensorflow.org / federated
 
 ---
 
-Happy
-Federated
-Learning! 🚀
+Happy Federated Learning!

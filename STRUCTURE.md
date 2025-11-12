@@ -490,4 +490,6 @@ plot_comparison(histories)
 
 ---
 
-This structure provides a solid foundation for federated learning research and development. Each component is modular and can be extended independently.
+This structure provides a solid foundation for federated learning research and development.
+
+Each component is modular and can be extended independently.

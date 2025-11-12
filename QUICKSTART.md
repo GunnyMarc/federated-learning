@@ -248,6 +248,4 @@ train_loaders = [
 
 - 📖 Check the [full documentation](docs/)
 - 💬 Open an issue on GitHub
-- 📧 Email: your.email@example.com
-
-Happy federated learning! 🚀
+- 📧 Email: marc@techgeezer.io
